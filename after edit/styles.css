@@ -1,0 +1,84 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', Arial, sans-serif;
+  background-color: #f1faee;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-main-text {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  background-color: #1D3557;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header-subtext {
+  font-size: 18px;
+  color: white;
+  background-color: #457B9D;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Info Section Styles */
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.info-card {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #F1FAEE;
+  box-shadow: 0px 6px 0px #1D3557;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.info-content h3 {
+  color: #1D3557;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.info-content p {
+  color: #1D3557;
+  font-size: 14px;
+}
